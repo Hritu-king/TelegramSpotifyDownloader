@@ -38,7 +38,7 @@
 
      }, 
 
-     "BOT_TOKEN": { 
+     "TELEGRAM_TOKEN": { 
 
        "description": "Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.", 
 
