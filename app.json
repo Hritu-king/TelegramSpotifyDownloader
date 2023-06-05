@@ -1,0 +1,68 @@
+{ 
+
+   "name": "Spotify Downloa", 
+
+   "description": "A simple Telegram bot to download music.", 
+
+   "keywords": [ 
+
+     "bot", 
+
+     "music", 
+
+     "music downloader" 
+
+   ], 
+
+   "repository": "https://github.com/Hritu-king/TelegramSpotifyDownloader", 
+
+   "website": "https://github.com/Hritu-king/TelegramSpotifyDownloader", 
+
+   "success_url": "https://t.me/spotify_downloa_bot", 
+
+   "env": { 
+
+     "API_ID": { 
+
+       "description": "Your Telegram API ID", 
+
+       "value": "" 
+
+     }, 
+
+     "API_HASH": { 
+
+       "description": "Get this value from my.telegram.org! Please do not steal", 
+
+       "value": "" 
+
+     }, 
+
+     "BOT_TOKEN": { 
+
+       "description": "Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.", 
+
+       "value": "" 
+
+     }
+
+
+   }, 
+
+ "buildpacks": [ 
+
+     { 
+
+       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git" 
+
+     }, 
+
+     { 
+
+       "url": "heroku/python" 
+
+     } 
+
+   ] 
+
+ }
